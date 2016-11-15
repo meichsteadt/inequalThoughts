@@ -90,6 +90,10 @@ a:hover {
   text-align: center;
 }
 
+.navbar-brand {
+  display: none;
+}
+
 .navbar-default {
   border: solid 1px #ddd;
 	background: white;
@@ -181,4 +185,22 @@ footer {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+@media screen and (max-width:767px) {
+  #navbar li {
+    display: list-item;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    padding: 5px;
+  }
+  .navbar-nav {
+    margin: 0 -15px;
+  }
+  .bar {
+    display: none!important;
+  }
+  .navbar-brand {
+    display: inline;
+  }
 }
