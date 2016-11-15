@@ -3,6 +3,11 @@ body {
   font-size: 2em;
   background: url('../img/generic-bg.jpg') no-repeat;
   background-size: cover;
+  font-family: 'Raleway', sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -62,8 +67,7 @@ a:hover {
 }
 
 .post-details {
-	font-size: 12px;
-	width: 90%;
+	font-size: 14px;
 }
 
 .post-details i.fa {
@@ -100,7 +104,7 @@ a:hover {
 }
 
 .nav>li>a {
-  padding: 10px 0;
+  padding: 10px;
 }
 
 .bar {
@@ -118,6 +122,42 @@ a:hover {
   animation: blink 1s infinite;
   display: inline-block;
   font-size: 48px;
+}
+
+.full-post {
+  text-align: justify;
+}
+
+.full-post h2 {
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+.full-post h3 {
+  text-align: center;
+}
+
+.full-post p{
+  margin: 30px;
+}
+
+.full-post img{
+  margin: 30px auto;
+  -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.full-post .post-details {
+  width: 100%;
+  font-size: 16px;
+}
+
+footer {
+  margin-top: 50px;
+  border-top: 2px solid black;
+  text-align: center;
 }
 
 @keyframes blink{
