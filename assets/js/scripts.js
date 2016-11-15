@@ -1,6 +1,7 @@
 $(function(){
   $("#title").typed({
     strings: ["Inequal Thoughts"],
-    typeSpeed: 50
+    typeSpeed: 70,
+    startDelay: 1000
   });
 })
