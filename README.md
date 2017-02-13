@@ -8,7 +8,12 @@ _**Matt Eichsteadt**_
 
 _Clone the repository,_
 _open your terminal,_
-_open the index.html file in your browser_
+_run postgres_
+_run 'ruby app.rb'_
+
+## Known Bugs
+
+_There are no known bugs at this time._
 
 ## Support and contact details
 
@@ -16,10 +21,10 @@ _If you have any issues, questions, comments, scathing reviews, or declarations 
 
 ## Technologies Used
 
-_This webpage was made using HTML, CSS, Typings.JS ,and Javascript._
+_This webpage was made using HTML, CSS, Typings.JS, Sass, Ruby, and SQL._
 
 ### License
 
-Copyright (c) 2017 _Matt Eichsteadt_
+Copyright (c) 2016 _Matt Eichsteadt_
 
 *Licensed under the GPL License*
